@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CategoryPageViewController.h
 //  NYResO
 //
 //  Created by ResDiary on 29/12/2015.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CategoryPageViewController : UIViewController
 
 @end
-
