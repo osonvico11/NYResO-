@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ResolutionArray</key>
+		<array>
+			<string>Join a gym.</string>
+			<string>Start a fitness class, i.e. zumba.</string>
+			<string>Start swimming, or take swimming lessons.</string>
+			<string>Find a running buddy, go running.</string>
+			<string>Try muscle training.</string>
+			<string>Train for a triathlon, do a triathlon.</string>
+			<string>Join a slimming club to lose weight i.e. weight watchers.</string>
+			<string>Take dancing lessons, i.e. salsa.  </string>
+			<string>Join a sports team i.e. netball.</string>
+			<string>Volounteer to coach a kids sports team i.e. football.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>ResolutionArray</key>
+		<array>
+			<string>Dye your hair a bright colour.</string>
+			<string>Try out a new style, i.e. rocker.</string>
+			<string>Grow out your eyebrows.</string>
+			<string>Start deep conditioning, do it once a week.</string>
+			<string>Try out french pleats as a new hair style.</string>
+			<string>Get a really drastic hair cut.</string>
+			<string>Totally revamp your wardrobe.</string>
+			<string>Learn to walk in 6 inch heels.</string>
+			<string>Have a relaxing bath once a week, try bath bombs, salts and essential oils.</string>
+			<string>Take a makeup class.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>ResolutionArray</key>
+		<array>
+			<string>Take up horse riding.</string>
+			<string>Learn to knit.</string>
+			<string>Learn how to play an instrument.</string>
+			<string>Join a new famndom, i.e. Marvel.</string>
+			<string>Take up skiing or snowboarding.</string>
+			<string>Volounteer at an animal shelter.</string>
+			<string>Create a blog.</string>
+			<string>Start up a youtube channel.</string>
+			<string>Take up arts and crafts as a stress reliever.</string>
+			<string>Design a product, try to sell it.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>ResolutionArray</key>
+		<array>
+			<string>Afraid of heights? Do a bungee jump!</string>
+			<string>Afraid of dogs? Volounteer at a dog shelter.</string>
+			<string>Afraid of ghosts? Take your friends to a midnight ghost walk.</string>
+			<string>Afraid of public speaking? Present a power point on a chosen topic at an assembly.</string>
+			<string>Afraid of rejection? Ask someone out on a date.</string>
+			<string>Afraid of the ocean? Try open water swimming.</string>
+			<string>Afraid of fish? Go snorkeling in the Great Barrier Reef.</string>
+			<string>Afraid of people? Join a club and make new friends.</string>
+			<string>Afraid of roller coasters? Take a trip to Barcelona and go on the Shambhala, the tallest roller coaster in europe.</string>
+			<string>Afraid of spiders? Visit a wildlife centre and ask to hold a tarantula.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>ResolutionArray</key>
+		<array>
+			<string>Create a new social media account, i.e. tumblr or twitter</string>
+			<string>Host a house party.</string>
+			<string>Camp out at a music festival with your friends.</string>
+			<string>Join another social circle.</string>
+			<string>Start going clubbing.</string>
+			<string>Reconnect with a drifted friend.</string>
+			<string>Tell someone you hate why you hate them.</string>
+			<string>Join a new club or committe.</string>
+			<string>Post a photo on social media every day.</string>
+			<string>Stop judging people and let them get on with their lives.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>ResolutionArray</key>
+		<array>
+			<string>Clean out and re-organize your fridge.</string>
+			<string>Invent your own cocktail.</string>
+			<string>Start growing your own fruits and vegetables.</string>
+			<string>Replace white bread for half and half.</string>
+			<string>Cut down on the fizzy juice.</string>
+			<string>Cut down on the junk food.</string>
+			<string>Try and lose a few pounds by eating more protein.</string>
+			<string>Try veganism, try not to tell eveyone you know about it.</string>
+			<string>Try herbal tea, i.e. green tea.</string>
+			<string>Force yourself to like coffe.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>ResolutionArray</key>
+		<array>
+			<string>Come up with a list of cities you want to visit, visit them throughout the year.</string>
+			<string>Go on a micro adventure - visit somewhere in your city you&apos;ve never been before.</string>
+			<string>Travel somewhere out of your comfort zone.</string>
+			<string>Save up enough money to go to your dream destination.</string>
+			<string>Backpack across western Europe.</string>
+			<string>Visit America if you&apos;ve never been.</string>
+			<string>Spend a few weeks in a developing country, volounteering with animals or people.</string>
+			<string>Visit Russia.</string>
+			<string>Learn to speak a new language and visit a country which speaks it.</string>
+			<string>Visit Iceland to see the Northern Lights.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>ResolutionArray</key>
+		<array>
+			<string>Read one book every week.</string>
+			<string>Start reading articles on websites such as The Gurardian.</string>
+			<string>Expand your vocabulary with word of the day apps.</string>
+			<string>Do a brain puzzle every day to keep your mind active.</string>
+			<string>Learn 15 words of a new language every day.</string>
+			<string>Learn about a new historical character every week.</string>
+			<string>Complete one mathematical problem every day.</string>
+			<string>Create a doable study timetable, and stick to it.</string>
+			<string>Keep up to date with world affairs.</string>
+			<string>Start having friendly debates with your friends and family to improve your logical thinking.</string>
+		</array>
+	</dict>
+</array>
+</plist>

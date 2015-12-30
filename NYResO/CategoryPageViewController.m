@@ -8,6 +8,9 @@
 
 #import "CategoryPageViewController.h"
 
+#import "CategoryDetailPageViewController.h"
+
+
 @interface CategoryPageViewController ()
 
 @end
@@ -34,4 +37,11 @@
 }
 */
 
+- (IBAction)categoryButtonPressed:(UIButton *)sender {
+    CategoryDetailPageViewController * detailPage = [self.storyboard instantiateViewControllerWithIdentifier:@"CategoryDetailPageViewController"];
+    detailPage.tagValue = sender.tag;
+    [self.navigationController pushViewController:detailPage animated:YES];
+  
+    
+}
 @end

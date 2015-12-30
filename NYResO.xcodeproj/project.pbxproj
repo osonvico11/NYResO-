@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C19D93A1C32E1C20004DED6 /* bells.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C19D9391C32E1C20004DED6 /* bells.jpg */; };
 		5C19D93C1C32E2620004DED6 /* hny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C19D93B1C32E2620004DED6 /* hny.jpg */; };
 		5C19D93E1C32E28F0004DED6 /* 2016.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C19D93D1C32E28F0004DED6 /* 2016.png */; };
+		5C289E701C33E7A7000342B5 /* CategoryResolutions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C289E6F1C33E7A7000342B5 /* CategoryResolutions.plist */; };
+		5C289E731C340DEA000342B5 /* ResolutionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C289E721C340DEA000342B5 /* ResolutionTableViewCell.m */; };
 		5C4E60B41C32C87D00F803D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E60B31C32C87D00F803D4 /* main.m */; };
 		5C4E60B71C32C87D00F803D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E60B61C32C87D00F803D4 /* AppDelegate.m */; };
 		5C4E60BD1C32C87D00F803D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E60BB1C32C87D00F803D4 /* Main.storyboard */; };
@@ -40,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C19D9391C32E1C20004DED6 /* bells.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bells.jpg; sourceTree = "<group>"; };
 		5C19D93B1C32E2620004DED6 /* hny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hny.jpg; sourceTree = "<group>"; };
 		5C19D93D1C32E28F0004DED6 /* 2016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2016.png; sourceTree = "<group>"; };
+		5C289E6F1C33E7A7000342B5 /* CategoryResolutions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CategoryResolutions.plist; sourceTree = "<group>"; };
+		5C289E711C340DEA000342B5 /* ResolutionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResolutionTableViewCell.h; sourceTree = "<group>"; };
+		5C289E721C340DEA000342B5 /* ResolutionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResolutionTableViewCell.m; sourceTree = "<group>"; };
 		5C4E60AF1C32C87D00F803D4 /* NYResO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYResO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4E60B31C32C87D00F803D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5C4E60B51C32C87D00F803D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,8 +122,10 @@
 				5C4E60E91C32CC9C00F803D4 /* CategoryPageViewController.m */,
 				5C4E60E51C32CC2400F803D4 /* HomePageViewController.h */,
 				5C4E60E61C32CC2400F803D4 /* HomePageViewController.m */,
+				5C289E711C340DEA000342B5 /* ResolutionTableViewCell.h */,
+				5C289E721C340DEA000342B5 /* ResolutionTableViewCell.m */,
 				5C4E60BB1C32C87D00F803D4 /* Main.storyboard */,
-				5C19D9391C32E1C20004DED6 /* bells.jpg */,
+				5C289E6F1C33E7A7000342B5 /* CategoryResolutions.plist */,
 				5C19D93D1C32E28F0004DED6 /* 2016.png */,
 				5C4E60EB1C32CCE500F803D4 /* CategoryDetailPageViewController.h */,
 				5C4E60EC1C32CCE500F803D4 /* CategoryDetailPageViewController.m */,
@@ -264,9 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C19D93E1C32E28F0004DED6 /* 2016.png in Resources */,
+				5C289E701C33E7A7000342B5 /* CategoryResolutions.plist in Resources */,
 				5C4E60C21C32C87D00F803D4 /* LaunchScreen.storyboard in Resources */,
 				5C4E60BF1C32C87D00F803D4 /* Assets.xcassets in Resources */,
-				5C19D93A1C32E1C20004DED6 /* bells.jpg in Resources */,
 				5C4E60BD1C32C87D00F803D4 /* Main.storyboard in Resources */,
 				5C19D93C1C32E2620004DED6 /* hny.jpg in Resources */,
 			);
@@ -294,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C4E60B71C32C87D00F803D4 /* AppDelegate.m in Sources */,
+				5C289E731C340DEA000342B5 /* ResolutionTableViewCell.m in Sources */,
 				5C4E60EA1C32CC9C00F803D4 /* CategoryPageViewController.m in Sources */,
 				5C4E60B41C32C87D00F803D4 /* main.m in Sources */,
 				5C4E60ED1C32CCE500F803D4 /* CategoryDetailPageViewController.m in Sources */,

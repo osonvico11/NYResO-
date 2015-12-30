@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CategoryPageViewController : UIViewController
+- (IBAction)categoryButtonPressed:(UIButton *)sender;
 
 @end

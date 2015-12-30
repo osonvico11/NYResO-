@@ -7,6 +7,9 @@
 //
 
 #import "CategoryDetailPageViewController.h"
+#import "ResolutionTableViewCell.h"
+
+static NSString * CellID = @"CellID" ;
 
 @interface CategoryDetailPageViewController ()
 
@@ -17,21 +20,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(NSArray*)resolutionsArray {
+    NSArray * array = [[NSArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource: @"CategoryResolutions" ofType:@"plist"]];
+    NSDictionary * dictionary = [array objectAtIndex: self.tagValue];
+    
+    self.resolutionsArray = [dictionary objectForKey: @"ResolutionArray"];
+    
+    return _resolutionsArray;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.resolutionsArray.count;
+    
 }
-*/
+
+-(UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    ResolutionTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellID forIndexPath:indexPath];
+    cell.resolutionLabel.text = [_resolutionsArray objectAtIndex:indexPath.row];
+    
+    
+    return cell;
+    
+    
+}
 
 @end

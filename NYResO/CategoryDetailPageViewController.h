@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CategoryDetailPageViewController : UIViewController
+@interface CategoryDetailPageViewController : UIViewController <UITableViewDataSource, UITabBarDelegate>
+
+@property (strong, nonatomic) NSArray *resolutionsArray;
+
+@property (nonatomic) NSInteger tagValue; 
+
 
 @end
