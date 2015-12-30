@@ -10,5 +10,6 @@
 
 @interface ResolutionTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *resolutionLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *categoryImageView;
 
 @end

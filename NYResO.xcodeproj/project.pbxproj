@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C06A6CA1C34235600F58D23 /* fitness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C06A6C91C34235600F58D23 /* fitness.jpg */; };
+		5C06A6CC1C3424A400F58D23 /* fearConquering.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C06A6CB1C3424A400F58D23 /* fearConquering.png */; };
+		5C06A6CE1C3424AE00F58D23 /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C06A6CD1C3424AE00F58D23 /* food.jpg */; };
+		5C06A6D01C3424C000F58D23 /* hobbies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C06A6CF1C3424C000F58D23 /* hobbies.jpg */; };
+		5C06A6D21C3424CC00F58D23 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C06A6D11C3424CC00F58D23 /* image.jpg */; };
+		5C06A6D41C3424DE00F58D23 /* intellectual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C06A6D31C3424DE00F58D23 /* intellectual.jpg */; };
+		5C06A6D61C3424E800F58D23 /* social.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C06A6D51C3424E800F58D23 /* social.jpg */; };
+		5C06A6D81C3424F200F58D23 /* travel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C06A6D71C3424F200F58D23 /* travel.jpg */; };
 		5C19D93C1C32E2620004DED6 /* hny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C19D93B1C32E2620004DED6 /* hny.jpg */; };
 		5C19D93E1C32E28F0004DED6 /* 2016.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C19D93D1C32E28F0004DED6 /* 2016.png */; };
 		5C289E701C33E7A7000342B5 /* CategoryResolutions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C289E6F1C33E7A7000342B5 /* CategoryResolutions.plist */; };
@@ -41,6 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C06A6C91C34235600F58D23 /* fitness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fitness.jpg; sourceTree = "<group>"; };
+		5C06A6CB1C3424A400F58D23 /* fearConquering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fearConquering.png; sourceTree = "<group>"; };
+		5C06A6CD1C3424AE00F58D23 /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		5C06A6CF1C3424C000F58D23 /* hobbies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hobbies.jpg; sourceTree = "<group>"; };
+		5C06A6D11C3424CC00F58D23 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		5C06A6D31C3424DE00F58D23 /* intellectual.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intellectual.jpg; sourceTree = "<group>"; };
+		5C06A6D51C3424E800F58D23 /* social.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = social.jpg; sourceTree = "<group>"; };
+		5C06A6D71C3424F200F58D23 /* travel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = travel.jpg; sourceTree = "<group>"; };
 		5C19D93B1C32E2620004DED6 /* hny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hny.jpg; sourceTree = "<group>"; };
 		5C19D93D1C32E28F0004DED6 /* 2016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2016.png; sourceTree = "<group>"; };
 		5C289E6F1C33E7A7000342B5 /* CategoryResolutions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CategoryResolutions.plist; sourceTree = "<group>"; };
@@ -116,6 +132,14 @@
 		5C4E60B11C32C87D00F803D4 /* NYResO */ = {
 			isa = PBXGroup;
 			children = (
+				5C06A6D71C3424F200F58D23 /* travel.jpg */,
+				5C06A6D51C3424E800F58D23 /* social.jpg */,
+				5C06A6D31C3424DE00F58D23 /* intellectual.jpg */,
+				5C06A6D11C3424CC00F58D23 /* image.jpg */,
+				5C06A6CF1C3424C000F58D23 /* hobbies.jpg */,
+				5C06A6CD1C3424AE00F58D23 /* food.jpg */,
+				5C06A6CB1C3424A400F58D23 /* fearConquering.png */,
+				5C06A6C91C34235600F58D23 /* fitness.jpg */,
 				5C4E60B51C32C87D00F803D4 /* AppDelegate.h */,
 				5C4E60B61C32C87D00F803D4 /* AppDelegate.m */,
 				5C4E60E81C32CC9C00F803D4 /* CategoryPageViewController.h */,
@@ -269,10 +293,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C19D93E1C32E28F0004DED6 /* 2016.png in Resources */,
+				5C06A6D21C3424CC00F58D23 /* image.jpg in Resources */,
+				5C06A6CA1C34235600F58D23 /* fitness.jpg in Resources */,
 				5C289E701C33E7A7000342B5 /* CategoryResolutions.plist in Resources */,
 				5C4E60C21C32C87D00F803D4 /* LaunchScreen.storyboard in Resources */,
+				5C06A6D41C3424DE00F58D23 /* intellectual.jpg in Resources */,
+				5C06A6D61C3424E800F58D23 /* social.jpg in Resources */,
+				5C06A6CE1C3424AE00F58D23 /* food.jpg in Resources */,
 				5C4E60BF1C32C87D00F803D4 /* Assets.xcassets in Resources */,
 				5C4E60BD1C32C87D00F803D4 /* Main.storyboard in Resources */,
+				5C06A6CC1C3424A400F58D23 /* fearConquering.png in Resources */,
+				5C06A6D81C3424F200F58D23 /* travel.jpg in Resources */,
+				5C06A6D01C3424C000F58D23 /* hobbies.jpg in Resources */,
 				5C19D93C1C32E2620004DED6 /* hny.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

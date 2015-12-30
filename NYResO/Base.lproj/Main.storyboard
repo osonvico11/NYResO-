@@ -82,7 +82,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BP1-MH-adv">
-                                <rect key="frame" x="15" y="86" width="142" height="70"/>
+                                <rect key="frame" x="13" y="132" width="142" height="70"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Fitness">
                                     <color key="titleColor" red="1" green="0.077371660011146259" blue="0.059842645570167385" alpha="1" colorSpace="calibratedRGB"/>
@@ -92,7 +92,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaZ-v6-gb6">
-                                <rect key="frame" x="20" y="181" width="155" height="81"/>
+                                <rect key="frame" x="15" y="240" width="155" height="81"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Hobbies">
                                     <color key="titleColor" red="1" green="0.76896042482690374" blue="0.084690583838283318" alpha="1" colorSpace="calibratedRGB"/>
@@ -102,7 +102,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjd-vR-QBE">
-                                <rect key="frame" x="43" y="262" width="312" height="62.5"/>
+                                <rect key="frame" x="56" y="329" width="312" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Fear Conquering">
                                     <color key="titleColor" red="0.094621313345735647" green="1" blue="0.04552094292067721" alpha="1" colorSpace="calibratedRGB"/>
@@ -112,7 +112,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIM-7O-Dp6">
-                                <rect key="frame" x="14" y="346" width="128" height="53"/>
+                                <rect key="frame" x="20" y="408" width="128" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Social">
                                     <color key="titleColor" red="0.030917232652527771" green="1" blue="0.93790384048188447" alpha="1" colorSpace="calibratedRGB"/>
@@ -122,7 +122,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywY-Xf-JZc">
-                                <rect key="frame" x="258" y="390" width="97" height="48"/>
+                                <rect key="frame" x="258" y="448" width="97" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Food">
                                     <color key="titleColor" red="0.042704666306200068" green="0.076813451699460189" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -132,7 +132,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcp-sp-YZC">
-                                <rect key="frame" x="20" y="446" width="122" height="60"/>
+                                <rect key="frame" x="15" y="500" width="122" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Travel">
                                     <color key="titleColor" red="0.6059375612265645" green="0.083167837588375981" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -142,7 +142,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9A-Zs-huE">
-                                <rect key="frame" x="136" y="496" width="219" height="49"/>
+                                <rect key="frame" x="156" y="555" width="219" height="49"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Intellectual">
                                     <color key="titleColor" red="1" green="0.22883663903224194" blue="0.91560178326294273" alpha="1" colorSpace="calibratedRGB"/>
@@ -152,13 +152,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a category!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBp-jd-2zC">
-                                <rect key="frame" x="14" y="8" width="397" height="70"/>
+                                <rect key="frame" x="13" y="68" width="397" height="70"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrq-A5-brR">
-                                <rect key="frame" x="196" y="92" width="125" height="77"/>
+                                <rect key="frame" x="196" y="192" width="125" height="77"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Image">
                                     <color key="titleColor" red="1" green="0.44435206359258783" blue="0.077806431316183366" alpha="1" colorSpace="calibratedRGB"/>
@@ -195,25 +195,31 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c5I-5Z-sAp">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellID" rowHeight="100" id="DMK-UH-6tW" customClass="ResolutionTableViewCell">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DMK-UH-6tW" id="cJv-7b-C2u">
+                                        <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DMK-UH-6tW" id="cJv-7b-C2u">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chD-KS-z8d">
-                                                    <rect key="frame" x="15" y="8" width="336" height="79"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <rect key="frame" x="13" y="8" width="270" height="79"/>
+                                                    <color key="tintColor" red="1" green="0.22883663900000001" blue="0.91560178329999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <color key="highlightedColor" red="0.95601350069046021" green="0.98448354005813599" blue="0.98451393842697144" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="znb-LF-JVA">
+                                                    <rect key="frame" x="286" y="17" width="70" height="62"/>
+                                                </imageView>
                                             </subviews>
+                                            <color key="tintColor" red="1" green="0.0" blue="0.99645024538040161" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="categoryImageView" destination="znb-LF-JVA" id="78x-5k-YiX"/>
                                             <outlet property="resolutionLabel" destination="chD-KS-z8d" id="MUE-0I-WvQ"/>
                                         </connections>
                                     </tableViewCell>
